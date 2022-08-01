@@ -31,4 +31,9 @@ create  : new Observable()
 fromEvent
 fromPromise : from()
 range
+
+// Operator: a transforming function
+Observable -> [Operator] -> Observable
+上圖表示 Observable 通過 operator 後依然是 Observable
+
  */
