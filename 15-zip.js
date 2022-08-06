@@ -24,3 +24,7 @@ zip(a1$, b1$).subscribe({
 // combineLatest([a1$, b1$]).subscribe({
 //     next: x => console.log(x)
 // })
+
+/*
+zip() 可以結合 observables，以一個對應一個的方式結合
+ */
